@@ -1,0 +1,25 @@
+html,body,h1,h2{ margin:0; padding:0; }
+body{ font-size:14px;}
+
+h1{ text-align:center; font-size:18px; color:red; line-height:100px; font-weight:600;}
+h2{ font-size:16px;}
+.container{ padding:0;}
+.row{ margin:0;}
+.col-xs-12{ text-align:center;}
+
+@media (min-width:768px){
+    body{ font-size:15px;}
+    h1{ font-size:24px;}
+    h2{ font-size:20px;}
+}
+@media (min-width:992px){
+    body{ font-size:16px;}
+    h1{ font-size:28px;}
+    h2{ font-size:24px;}
+}
+@media (min-width:1200px){
+    body{ font-size:17px;}
+    h1{ font-size:32px;}
+    h2{ font-size:28px;}
+}
+
