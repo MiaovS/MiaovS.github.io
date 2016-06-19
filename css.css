@@ -1,25 +1,33 @@
-html,body,h1,h2{ margin:0; padding:0; }
+html,body,h1,h2,ul,li,p{ margin:0; padding:0; }
 body{ font-size:14px;}
 
-h1{ text-align:center; font-size:18px; color:red; line-height:100px; font-weight:600;}
-h2{ font-size:16px;}
+h1{ text-align:center; font-size:18px; color:red; line-height:60px; font-weight:600;}
+h2{ font-size:16px; margin-bottom:6px;}
+li{ list-style:none;}
+p{ line-height:28px; font-size:14px;}
 .container{ padding:0;}
 .row{ margin:0;}
-.col-xs-12{ text-align:center;}
+.col-xs-12{ text-align:center; margin:10px 0;}
 
 @media (min-width:768px){
     body{ font-size:15px;}
-    h1{ font-size:24px;}
-    h2{ font-size:20px;}
+    h1{ font-size:24px; line-height:80px;}
+    h2{ font-size:20px; margin-bottom:8px;}
+    p{ line-height:32px; font-size:16px;}
+    .col-xs-12{ margin:14px 0;}
 }
 @media (min-width:992px){
     body{ font-size:16px;}
-    h1{ font-size:28px;}
-    h2{ font-size:24px;}
+    h1{ font-size:28px; line-height:100px;}
+    h2{ font-size:24px; margin-bottom:10px;}
+    p{ line-height:36px; font-size:18px;}
+    .col-xs-12{ margin:18px 0;}
 }
 @media (min-width:1200px){
     body{ font-size:17px;}
-    h1{ font-size:32px;}
-    h2{ font-size:28px;}
+    h1{ font-size:32px; line-height:120px;}
+    h2{ font-size:28px; margin-bottom:12px;}
+    p{ line-height:40px; font-size:22px;}
+    .col-xs-12{ margin:22px 0;}
 }
 
